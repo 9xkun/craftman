@@ -27,10 +27,12 @@ public class QuotesActivity extends ListActivity {
     Intent i = getIntent();
     String quote = i.getStringExtra("index");
     
-    //display
+    //display quote
     //should check quote (because if we do not pass, app will not crash)
     if(null != quote){
-      setListAdapter(new ArrayAdapter(this, android.R.layout.simple_list_item_1, new String[]{quote}));
+      //(chaining statement code)
+      //setListAdapter(new ArrayAdapter(this, android.R.layout.simple_list_item_1, new String[]{quote}));
+      setListAdapter(new ArrayAdapter(this, R.layout.list_item, new String[]{quote}));
     }
   }
 }
