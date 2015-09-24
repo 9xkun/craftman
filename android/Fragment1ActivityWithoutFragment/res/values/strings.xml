@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CelebsActivity</string>
+    
+    <string-array name="celebs">
+      <item>Chủ tịch Hồ Chí Minh</item>
+      <item>Đại tướng Võ Nguyên Giáp</item>
+      <item>Tổng bí thư Nguyễn Văn Linh</item>
+    </string-array>
+    
+    <string-array name="quotes">
+      <item>Không có gì quí hơn độc lập, tự do.</item>
+      <item>Thần tốc, thần tốc hơn nữa; táo bạo, táo bạo hơn nữa; tranh thủ từng phút, từng giờ; 
+        xốc tới mặt trận; giải phóng miền Nam; quyết chiến và toàn thắng!</item>
+      <item>Phải đấu tranh chống cái cũ, chống bảo thủ trì trệ, chống giáo điều rập khuôn, chống chủ quan nóng vội, 
+        chống tha hóa biến chất, chống những thói quen lỗi thời dai dẳng. Đây là cuộc đấu tranh cách mạng gian khổ 
+        diễn ra trên mọi lĩnh vực và trong bản thân từng người chúng ta.</item>
+    </string-array>
+    
+</resources>

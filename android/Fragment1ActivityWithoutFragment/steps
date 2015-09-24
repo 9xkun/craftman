@@ -1,0 +1,12 @@
+1. Tạo 2 Activities: Celebs để hiển thị các vĩ nhân, và Quotes là màn hình các câu nói của họ.
+2. Tạo 2 mảng String, một chứa tên các vĩ nhân và một chứa các câu nói.
+
+| Chủ tịch Hồ Chí Minh      | -> | Không có gì quí hơn độc lập, tự do|
+| Đại Tướng Võ Nguyên Giáp | -> | baldfasfd |
+| Tổng bí thuư NVLinh      | -> | sdfsdfs   |
+
+Index của 2 mảng sẽ dùng để chuyển giữa 2 màn hình.
+Chú ý nữa: 2 mảng này sẽ lưu trong assets của app -> dùng cho các app đa ngữ.
+
+3. Code 2 màn hình với Intent dùng để truyền index. Ví dụ người dùng click ĐT VNGiáp (index=2) , chúng ta
+truyền sang màn hình quotes, lấy quotes[2] ra và hiển thị. 
